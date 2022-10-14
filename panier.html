@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/panierStyle.css">
+    <title>Contenu du Panier</title>
+</head>
+<body>
+    <table>
+            <tr class="table">
+                    <th>Nom de l'article</th>
+                    <th>Quantite</th>
+                    <th>Prix unitaire</th>
+                    <th>Prix total</th>
+            </tr>
+
+            <tr class="table">
+                    <td>
+                        <img width="250" height="250" src="https://www.fabellashop.com/wp-content/uploads/2015/01/Huile-essentielle-de-Pamplemousse.jpg" alt="">
+                        <h4>Huile essentielle: PAMPLEMOUSSE(10ml)</h4>
+                    </td>
+
+                    <td>
+                        <button type="button" class="btn btn-primary" id="btnp"><i class="fa-solid fa-plus"></i></button>
+                        <input type="text" readonly placeholder="prix unitaire" class="quantite" value="1">
+                        <button type="button" class="btn btn-secondary" id="btns"><i class="fa-solid fa-minus"></i></button>
+                    </td>
+
+                    <td>
+                         <span class="prix-unit" id="prixU">4000&nbsp;</span>
+                         CFA
+                    </td>
+
+                     <td class="prixT" id="prixT1">0</td>
+                     <td><i class="fa-solid fa-trash"></i></td>
+                     <td class="heart"><i class="fa fa-heart" aria-hidden="true"></i></td>
+
+            </tr>
+
+
+            <tr class="table">
+                    <td>
+                        <img width="250" height="250" src="https://www.fabellashop.com/wp-content/uploads/2018/05/Beurre-Vegetal-dAmande-Bio--350x350.jpg"  alt="">
+                        <h4>Beurre végétal d'Amande Bio</h4>
+                    </td>
+
+                    <td>
+                        <button type="button" class="btn btn-primary" id="btnp"><i class="fa-solid fa-plus"></i></button>
+                        <input type="text" readonly placeholder="prix unitaire" class="quantite" value="1">
+                        <button type="button" class="btn btn-secondary" id="btns"><i class="fa-solid fa-minus"></i></button>
+                    </td>
+
+                    <td>
+                        <span class="prix-unit" id="prixU">5900&nbsp;</span>
+                        CFA
+                    </td>
+
+                    <td class="prixT" id="prixT2">0</td>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td class="heart"><i class="fa fa-heart" aria-hidden="true"></i></td>
+            </tr>
+
+
+            <tr class="table">
+                    <td>
+                        <img width="250" height="250" src="https://www.fabellashop.com/wp-content/uploads/2015/11/Huile-essentielle-Citron--350x350.jpg" alt="">
+                        <h4>Huile essentielle: CITRON(10ml)</h4>
+                    </td>
+
+                    <td>
+                        <button type="button" class="btn btn-primary" id="btnp"><i class="fa-solid fa-plus"></i></button>
+                        <input type="text" readonly placeholder="prix unitaire" class="quantite" value="1">
+                        <button type="button" class="btn btn-secondary" id="btns"><i class="fa-solid fa-minus"></i></button>
+                    </td>
+
+                    <td>
+                        <span class="prix-unit" id="prixU">4000&nbsp;</span>
+                        CFA
+                    </td>
+
+                    <td class="prixT" id="prixT3">0</td>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td class="heart"><i class="fa fa-heart" aria-hidden="true"></i></td>
+             </tr>
+
+    </table>
+
+
+    <h1 class="total">Prix total:
+        <span id="prixTotal">0</span>
+    </h1>
+
+    <script  src="/panier.js"> </script>
+
+</body>
+</html>

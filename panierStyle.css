@@ -1,0 +1,59 @@
+                                /* ===============CSS PANIER.html=============== */
+
+    .table
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+                                
+    .table th
+    {
+        margin-left: 200px;
+    }
+
+        
+    .table td img
+    {
+        margin-left:90px;
+    }
+        
+
+    .table td h4
+    {
+        margin-left:90px;
+    }
+       
+    
+    .btn.btn-primary
+    {
+        background-color: #ef7c99;
+    }
+        
+    
+    .btn.btn-secondary
+    {
+        background-color:#ef7c99;
+    }
+        
+
+    .quantite
+    {
+        width: 50px;
+        text-align: center;
+    }
+        
+        
+    .total
+    {
+        text-align: center;
+        color: #951a39;
+        border-style:ridge;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-color: #ef7c99;
+    }
+                
+
+                                /* ================END PANIER================== */
